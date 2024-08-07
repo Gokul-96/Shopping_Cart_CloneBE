@@ -1,3 +1,5 @@
+//Using Mongoose define structure of order items in DB
+
 import mongoose from 'mongoose';
 
 const orderSchema = mongoose.Schema(
@@ -78,6 +80,8 @@ const orderSchema = mongoose.Schema(
   }
 );
 
+//create model using mongoose.model
+//order - refer the collection in mongoDB
 const Order = mongoose.model('Order', orderSchema);
 
 export default Order;

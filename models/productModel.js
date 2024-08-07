@@ -1,4 +1,7 @@
+//review schema has used in the product schema model
+//export product
 import mongoose from 'mongoose';
+
 
 const reviewSchema = mongoose.Schema(
   {
